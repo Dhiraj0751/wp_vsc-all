@@ -59,6 +59,8 @@
                 </div>
             </div>
         </div>
+
+
         <style type="text/css">
 
             * {
@@ -149,7 +151,7 @@
 
             .popup .form .form-element input[type="text"],
             .popup .form .form-element input[type="password"] {
-                margin-top: 5px;i
+                margin-top: 5px;
                 display: black;
                 width: 100%;
                 padding: 10px;
@@ -184,33 +186,35 @@
 
             }
 
+
+
+
             for button responsive style
 
-button {
-    width: 140px; 
-    border: 0;
-    padding: 12px 10px;
-    outline: none;
-    color: #FFF;
-    background: linear-gradient(to right, #fb5283, #ff3527);
-    border-radius: 6px;
-    cursor: pointer;
-    transition: width 0.5s;
-}
-button img {
-    width: 30px;
-    display: none;
-}
-button:hover img {
-    display: block;
-}
-button:hover {
-    width: 160px; 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
+            button {
+                width: 140px; 
+                border: 0;
+                padding: 12px 10px;
+                outline: none;
+                color: #FFF;
+                background: linear-gradient(to right, #fb5283, #ff3527);
+                border-radius: 6px;
+                cursor: pointer;
+                transition: width 0.5s;
+            }
+            button img {
+                width: 30px;
+                display: none;
+            }
+            button:hover img {
+                display: block;
+            }
+            button:hover {
+                width: 160px; 
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
 
 
         </style>
@@ -226,7 +230,7 @@ button:hover {
         </style>
 
 
-                                       
+</body>                                         
 
 for font awsome <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 for dropdown menu  <link rel="stylesheet" href="style.css">
@@ -234,12 +238,46 @@ for dropdown menu  <link rel="stylesheet" href="style.css">
 make sure the file is saved in .html form
 install live server and tailwind css intellisense
 open https://tailwindcss.com/
-copy npm 1 in using postCSS and add in new terminal rename it from powershell to node
+copy npm 1 in using postCSS and add in new terminal rename it from powershell to node ---- npm install -D tailwindcss postcss autoprefixer
 add npm install vite in the same terminal
 go to package.json and add "scripts": {}, in first line
 add "start": "vite" inside "scripts": {}
 add npx tailwindcss init from using postCSS
 in tailwind.config.js in content: [] add ["*"]
+
+
+ responsive screens
+ 1440-1301
+ 1300-1241
+ 1240-992
+ 991-768
+ 767-651
+ 650-481
+ 480-376
+ 375-351
+ 350-321
+
+To make a webpage responsive in visual studio code we have to add media queries
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<style type="text.css">
+          html {
+            font-size: 62.5%;
+          }
+
+          @media (max-width:998px) {
+            html {
+              font-size: 55%;
+            }
+          }
+
+          @media (max-width:768px) {
+            html {
+              font-size: 45%;
+            }
+          }
+        </style>
 
 
 for wordpress
@@ -258,7 +296,3 @@ add site title as file name and username as admin password as admin@123 and conf
 go to appearence themes and add the theme which is saved and install it and activate
 go to plugins and add new and install classic editor and in search istall file manager cache and contact forms
 go  to file manager wp content, themes, htme 19 and duplicate page.php and rename it to 
-
-
-</body>  
-</html>
